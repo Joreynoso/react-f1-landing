@@ -1,0 +1,16 @@
+@font-face{
+    font-family: formula;
+    src: url('./assets/fonts/Formula1-Regular.ttf') 
+}
+
+@font-face{
+    font-family: formulaWide;
+    src: url('./assets/fonts/Formula1-Bold.otf') 
+}
+
+@import "tailwindcss";
+
+@theme{
+    --font-formula: formula, 'sans-serif';
+    --font-formulaWide: formulaWide, 'sans-serif';
+}
